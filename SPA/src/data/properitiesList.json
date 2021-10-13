@@ -1,0 +1,37 @@
+[
+  {
+  "Id":1,
+  "Name":"First House",
+  "Type":"House",
+  "Image":"assets/Images/house_default.png",
+  "Price":1000
+},
+{
+  "Id":2,
+  "Name":"Second House",
+  "Type":"House",
+  "Image":"assets/Images/house_default.png",
+  "Price":500
+},
+{
+  "Id":3,
+  "Name":"Third House",
+  "Type":"House",
+  "Image":"assets/Images/house_default.png",
+  "Price":1200
+},
+{
+  "Id":4,
+  "Name":"Fourth House",
+  "Type":"House",
+  "Image":"assets/Images/house_default.png",
+  "Price":1400
+},
+{
+  "Id":5,
+  "Name":"Fifth House",
+  "Type":"House",
+  "Image":"assets/Images/house_default.png",
+  "Price":1000
+}
+]

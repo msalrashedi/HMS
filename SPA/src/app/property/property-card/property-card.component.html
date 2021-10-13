@@ -1,18 +1,24 @@
-<div class="row">
-  <div class="col-sm-4 shadow-lg p-3">
-    <div class="card">
+
+    <div class="card shadow-sm">
       <div class="card-body p-2">
-        <div class="text-center p-3">
-          <img class="property-img" src="assets/Images/house_default.png"/>
+        <div class="p-3 card-img-wrapper">
+
+          <img class="card-img-top" src="{{property.Image}}">
+          <ul class="list-inline text-center member-icons animate">
+            <li class="list-inline-item member-icon">
+              <button class="btn btn-primary">C</button>
+            </li>
+            <li class="list-inline-item member-icon">
+              <a class="btn btn-primary" routerLink="property-details/{{property.Id}}">E</a>
+            </li>
+          </ul>
         </div>
 
-        <h1>{{Property.Name}}</h1>
-        <h2>{{Property.Type}}</h2>
-        <h3 style="color: red;">{{Property.Price}}</h3>
+        <h1 style="color: rgb(0, 162, 255);">{{property.Name}}</h1>
+        <h2>{{property.Type}}</h2>
+        <h3 style="color: red;">{{property.Price}}</h3>
       </div>
 
     </div>
-  </div>
 
-</div>
 
